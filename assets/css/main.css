@@ -214,7 +214,7 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation 
 --------------------------------------------------------------*/
-@media (min-width: 1280px) {
+@media (min-width: 500px) { /*davehere 1280 test 500*/
   .navbar {
     padding: 0;
   }
@@ -331,7 +331,7 @@ section {
   }
 }
 
-@media (min-width: 1280px) and (max-width: 1366px) {
+@media (min-width: 1280px) and (max-width: 1366px) {  /*davehere 1366 */
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -348,7 +348,7 @@ section {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
-@media (max-width: 1279px) {
+@media (max-width: 710px) { /* davehere 1279 This is it! 720 no*/
   .navbar {
     padding: 0;
     z-index: 9997;
@@ -372,12 +372,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 10px 20px; 
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 600;
     color: var(--color-primary);
-    white-space: nowrap;
+    white-space: nowrap; 
     transition: 0.3s;
   }
 
@@ -385,7 +385,7 @@ section {
   .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
-    margin-left: 5px;
+    margin-left: 5px; 
   }
 
   .navbar a:hover,
@@ -488,7 +488,7 @@ section {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {. 
   .custom-border {
     border: none !important;
   }
@@ -624,7 +624,7 @@ section {
 }
 
 .img-bg {
-  height: 500px;
+  height: 500px;  
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -633,7 +633,7 @@ section {
 
 @media (max-width: 768px) {
   .img-bg {
-    height: 400px;
+    height: 400px;  
   }
 }
 
@@ -758,7 +758,7 @@ section {
 }
 
 .post-content .firstcharacter {
-  float: left;
+  ""oat: left;
   font-family: Georgia;
   font-size: 75px;
   line-height: 60px;
