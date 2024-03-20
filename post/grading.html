@@ -62,9 +62,78 @@
           <img src="img/logo.png" alt=""></a>
       </div>
     </div>
+
+    <!-- CUSTOM STYLE FOR PHOTOS =========================================-->
+<style>
+p.x {
+  height: 50px;  <!-- was 200px -->
+  width: 500px;
+  margin: 100px auto;  
+  position: relative;
+}
+
+img.x {
+  height: 100px;
+  position: absolute;
+  left: 0;
+  offset-path: path('m 0 50 q 50-30 100-30 t 100 30 100 0 100-30 100 30');
+  box-shadow: 1px 1px 3px #0008;
+  transition: transform .4s ease-out, offset-path .4s cubic-bezier(.77,-1.17,.75,.84),box-shadow .3s, z-index .3s;
+  z-index: 0;
+}
+
+img.x:hover {
+  transform: scale(3);
+  /* on hover, the path gets a bit shorter & flattened & shifted to left/bottom a bit for nicer movement */
+  offset-path: path('m 5 65 q 45-0 90-0 t 90 0 90 0 90-0 90 0');
+  box-shadow: 3px 4px 10px #0006;
+  z-index: 999;
+}
+
+/* 3 images */
+img.x:nth-last-child(3):first-child {offset-distance: 17%;}
+img.x:nth-last-child(2):nth-child(2) {offset-distance: 49%;}
+img.x:last-child:nth-child(3) {offset-distance: 81%;}
+
+/* 4 images */
+img.x:nth-last-child(4):first-child {offset-distance: 10%;}
+img.x:nth-last-child(3):nth-child(2) {offset-distance: 35%;}
+img.x:nth-last-child(2):nth-child(3) {offset-distance: 65%;}
+img.x:last-child:nth-child(4) {offset-distance: 90%;}
+
+/* 5 images */
+img.x:nth-last-child(5):first-child {offset-distance: 0%;}
+img.x:nth-last-child(4):nth-child(2) {offset-distance: 25%;}
+img.x:nth-last-child(3):nth-child(3) {offset-distance: 51%;}
+img.x:nth-last-child(2):nth-child(4) {offset-distance: 75%;}
+img.x:last-child:nth-child(5) {offset-distance: 100%;}
+
+/* 7 images */
+img.x:nth-last-child(7):first-child {offset-distance: 0%;}
+img.x:nth-last-child(6):nth-child(2) {offset-distance: 18%;}
+img.x:nth-last-child(5):nth-child(3) {offset-distance: 36%;}
+img.x:nth-last-child(4):nth-child(4) {offset-distance: 52%;}
+img.x:nth-last-child(3):nth-child(5) {offset-distance: 70%;}
+img.x:nth-last-child(2):nth-child(6) {offset-distance: 88%;}
+img.x:last-child:nth-child(7) {offset-distance: 100%;}
+
+/* 10 images */
+img.x:nth-last-child(10):first-child {offset-distance: 0%;}
+img.x:nth-last-child(9):nth-child(2) {offset-distance: 10%;}
+img.x:nth-last-child(8):nth-child(3) {offset-distance: 20%;}
+img.x:nth-last-child(7):nth-child(4) {offset-distance: 30%;}
+img.x:nth-last-child(6):nth-child(5) {offset-distance: 40%;}
+
+img.x:nth-last-child(5):nth-child(6) {offset-distance: 60%;}
+img.x:nth-last-child(4):nth-child(7) {offset-distance: 70%;}
+img.x:nth-last-child(3):nth-child(8) {offset-distance: 80%;}
+img.x:nth-last-child(2):nth-child(9) {offset-distance: 90%;}
+img.x:last-child:nth-child(10) {offset-distance: 100%;}
+
+
+    </style>
+    <!-- END CUSTOM STYLE FOR PHOTOS =====================================-->
   </header><!-- ========== END HEADER ====================================-->
-
-
 
   <main id="main">
 
@@ -77,16 +146,38 @@
             <div class="single-post">
               <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 18, 24</span></div>
               <h1 class="mb-5">Karate Gradings</h1>
-              <p><span class="firstcharacter">K</span>arate gradings always inspire! It doesn’t matter whether the participants are young or old, if it's their first grading from white belt, or a dan grading of a black belt. Gradings are a demonstration of physical prowess, constructed from focus, dedication, and grit. Here are a few photos from the recent 3+ hours Senior Belt grading held at the <a href="https://www.whiteheronmartialarts.com" target="_blank"><em>Heidelberg dojo</em></a>.</p>
+              <p><span class="firstcharacter">K</span>arate gradings always inspire! It doesn’t matter whether the participants are young or old, if it's their first grading from white belt, or a dan grading of a black belt. Gradings are a demonstration of physical prowess, constructed from focus, dedication, and grit. </p>
+              <p>Here are a few photos from our recent gradings</p>
+
+              <h2>March '24, 2024</h2>
+              <p> This was a Senior Belt, 3+ hr grading held at the <a href="https://www.whiteheronmartialarts.com" target="_blank"><em>Heidelberg dojo</em></a>.</p>
             
-              <div style="width: fit-content;">
-                <a><img src="img/grading-1short.png" alt="" width=100% style="float: left"></a> <p>.</p>
-                <a><img src="img/grading-2short.png" alt="" width=100% style="float: left"></a> <p>.</p>
-                <a><img src="img/grading-3.jpg" alt="" width=100% style="float: left"></a> <p>.</p>
-                <a><img src="img/grading-4.jpg" alt="" width=100% style="float: left"></a> <p>.</p>
-                <a><img src="img/grading-5.jpg" alt="" width=100% style="float: left"></a> <p>.</p>
-                <a><img src="img/grading-6.jpg" alt="" width=100% style="float: left"></a> <p>.</p>
-                <a><img src="img/grading-7.jpg" alt="" width=100% style="float: left"></a> <p>.</p>
+            <p class="x">
+              <img src="img/grading-1short.jpg" class="x">
+              <img src="img/grading-2short.jpg" class="x">
+              <img src="img/grading/grading-3.jpg" class="x">
+              <img src="img/grading/grading-4.jpg" class="x">
+              <img src="img/grading/grading-5.jpg" class="x">
+              <img src="img/grading/grading-6.jpg" class="x">
+              <img src="img/grading/grading-7.jpg" class="x">
+            </p>
+            <h2> March 6, '24 Grading</h2>
+            <p class="x">
+              <img src="img/grading/240306-1.jpg" class="x">
+              <img src="img/grading/240306-2.jpg" class="x">
+              <img src="img/grading/240306-3.jpg" class="x">
+              <img src="img/grading/240306-4.jpg" class="x">
+              <img src="img/grading/240306-5.jpg" class="x">
+            </p>
+            <p class="x">          
+              <img src="img/grading/240306-6.jpg" class="x">
+              <img src="img/grading/240306-7.jpg" class="x">
+              <img src="img/grading/240306-8.jpg" class="x">
+              <img src="img/grading/240306-9.jpg" class="x">
+              <img src="img/grading/240306-10.jpg" class="x">
+ 
+            </p>
+
               </div>
             </div><!-- End Single Post Content -->
 
