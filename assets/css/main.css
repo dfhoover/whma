@@ -139,7 +139,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 60px;  /* was 40px */
   margin-right: 6px;
 }
 
@@ -241,7 +241,7 @@ section {
     font-size: 16px;
     font-weight: 500;
     color: rgba(var(--color-default-rgb), 1);
-    white-space: nowrap;
+    white-space: nowrap; 
     transition: 0.3s;
   }
 
@@ -262,8 +262,8 @@ section {
   .navbar .getstarted,
   .navbar .getstarted:focus {
     background: var(--color-primary);
-    padding: 8px 20px;
-    margin-left: 30px;
+    padding: 8px 10px;   /* was 8 20 */
+    margin-left: 10px;    /* was 30 */
     border-radius: 4px;
     color: var(--color-white);
   }
@@ -280,7 +280,7 @@ section {
     left: 14px;
     top: calc(100% + 30px);
     margin: 0;
-    padding: 10px 0;
+    padding: 5px 0;
     z-index: 99;
     opacity: 0;
     visibility: hidden;
@@ -348,7 +348,7 @@ section {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
-@media (max-width: 710px) { /* davehere 1279 This is it! 720 no*/
+@media (max-width: 902px) { /* davehere 1279 This is it! 710 no*/
   .navbar {
     padding: 0;
     z-index: 9997;
@@ -358,9 +358,9 @@ section {
     display: none;
     position: absolute;
     inset: 55px 15px 15px 15px;
-    padding: 10px 0;
+    padding: 5px 0;
     margin: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: var(--color-white);
     overflow-y: auto;
     transition: 0.3s;
