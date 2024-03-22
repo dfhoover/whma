@@ -47,19 +47,24 @@
 
   <!-- ==========HEADER ============================================= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
+    <style>
+      .lg-text {font-size: 1.8em;} 
+      .sm-text {font-size: .8em;}
+      .large-text {display: block; } 
+
+      @media screen and (max-width: 520px) {
+        .large-text {
+        display: none; }} /* Hides the element on screens smaller than 520px */
+    </style>
+
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="../index.html" class="logo d-flex align-items-center">
-        <img src="img/logo.png" alt=""><h1>WHMA Blog</h1><em>  -  Martial Arts  -  Fitness  -  Life Tools</em></a>
-      <!--
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="whiteheronmartialarts.com." target="_blank">White Heron Martial Arts - Dojo</a></li> 
-        </ul>
-      </nav><!-- .navbar -->
+        <img src="img/logo.png" alt="">
+        <p><strong class="lg-text">WHMA Blog</strong><br><em class="sm-text">Martial Arts  -  Fitness  -  Life Tools</em></p></a>
 
       <div class="position-relative">
-        <a href="https://whiteheronmartialarts.com" target="_blank" class="logo d-flex align-items-center"><em>White Heron Martial Arts - </em>
+        <a href="https://whiteheronmartialarts.com" target="_blank" class="logo d-flex align-items-center"><div class="large-text"><em>Visit Dojo -</em></div>
         <img src="img/logo.png" alt=""></a>
       </div>
     </div>
