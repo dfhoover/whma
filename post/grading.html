@@ -48,22 +48,6 @@
 
   <!-- ==========HEADER ============================================= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="../index.html" class="logo d-flex align-items-center">
-        <img src="img/logo.png" alt=""><h1>WHMA Blog</h1><em>  -  Martial Arts  -  Fitness  -  Life Tools</em></a>
-      <!--
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="whiteheronmartialarts.com." target="_blank">White Heron Martial Arts - Dojo</a></li> 
-        </ul>
-      </nav><!-- .navbar -->
-
-      <div class="position-relative">
-        <a href="https://whiteheronmartialarts.com" target="_blank" class="logo d-flex align-items-center"><em>White Heron Martial Arts - </em>
-        <img src="img/logo.png" alt=""></a>
-      </div>
-    </div>
 
     <!-- CUSTOM STYLE FOR PHOTOS =========================================-->
     <style>
@@ -132,8 +116,35 @@
           z-index: 999;
         } 
       }
+      /* Default styles (optional) */
+      .large-text {display: block; } /* Ensures the element displays as a block by default */
+
+      /* Hide text on small screens */
+      @media screen and (max-width: 768px) {
+        .large-text {
+        display: none; } /* Hides the element on screens smaller than 768px */
+      }
     </style>
     <!-- END CUSTOM STYLE FOR PHOTOS =====================================-->
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="../index.html" class="logo d-flex align-items-center">
+        <img src="img/logo.png" alt=""><h1>WHMA Blog</h1><div class="large-text"><em>  -  Martial Arts  -  Fitness  -  Life Tools</em></div></a>
+      <!--
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="whiteheronmartialarts.com." target="_blank">White Heron Martial Arts - Dojo</a></li> 
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="position-relative">
+        <a href="https://whiteheronmartialarts.com" target="_blank" class="logo d-flex align-items-center">
+          <div class="large-text"><em>White Heron Martial Arts - </em></div>
+        <img src="img/logo.png" alt=""></a>
+      </div>
+    </div>
+
   </header><!-- ========== END HEADER ====================================-->
 
   <main id="main">
