@@ -51,15 +51,6 @@
 
     <!-- CUSTOM STYLE FOR PHOTOS =========================================-->
     <style>
-      .lg-text {font-size: 1.8em;} /* Increase font size by 1 unit relative to the base size */
-      .sm-text {font-size: .8em;} /* Increase font size by 1 unit relative to the base size */
-      .large-text {display: block; } /* Ensures the element displays as a block by default */
-
-      /* Hide text on small screens */
-      @media screen and (max-width: 520px) {
-        .large-text {
-        display: none; } /* Hides the element on screens smaller than 768px */
-      }
       /* Styles for screens larger than 768px (e.g., tablets and desktops) */
       @media screen and (min-width: 768px) {
         p.x {
@@ -122,34 +113,26 @@
         img.x:hover {
           transform: scale(3);
           box-shadow: 3px 4px 10px #0006;
-          z-index: 999;
-        } 
+          z-index: 999;}
       }
-      /* Default styles (optional) */
-      .large-text {display: block; } /* Ensures the element displays as a block by default */
+      .lg-text {font-size: 1.8em;} 
+      .sm-text {font-size: .8em;}
+      .large-text {display: block; } 
 
-      /* Hide text on small screens */
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 520px) {
         .large-text {
-        display: none; } /* Hides the element on screens smaller than 768px */
-      }
+        display: none; }} /* Hides the element on screens smaller than 520px */
     </style>
     <!-- END CUSTOM STYLE FOR PHOTOS =====================================-->
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-     <a href="../index.html" class="logo d-flex align-items-center">
-        <img src="post/img/logo.png" alt="">
-        <p><strong class="lg-text">WHMA Blog</strong><br><em class="sm-text">Martial Arts  -  Fitness  -  Life Tools</em></p></a>
+      <a href="../index.html" class="logo d-flex align-items-center">
+        <img src="img/logo.png" alt="">
+        <p><strong class="lg-text">WHMA Blog</strong><br><em class="sm-text">Martial Arts  -  Fitness  -  Life Tools</em></p>
+     </a>
 
-      <!--
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="whiteheronmartialarts.com." target="_blank">White Heron Martial Arts - Dojo</a></li> 
-        </ul>
-      </nav><!-- .navbar -->
-
-       <div class="position-relative">
+      <div class="position-relative">
         <a href="https://whiteheronmartialarts.com" target="_blank" class="logo d-flex align-items-center"><div class="large-text"><em>Visit Dojo -</em></div>
         <img src="img/logo.png" alt=""></a>
       </div>
