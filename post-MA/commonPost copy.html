@@ -41,25 +41,51 @@
   <!-- ==========HEADER ============================================= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <style>
-      .lg-text {font-size: 1.8em;} 
-      .sm-text {font-size: .8em;}
-      .large-text {display: block; } 
+      .lg-text {font-size: 1.7em;} 
+      .sm-text {font-size: 1.2em;}
+      ul.no-bullets{list-style:none;}
+      ul.no-bullets li{text-align: right;}
 
+      table { width: 500px; border-collapse: collapse; }
+      th, td {padding: 10px; border: 1px solid #ddd; }
+
+      tr:nth-child(even) { background-color: #eee; } /* Add a light background for even rows */
+
+      th:first-child, td:first-child { background-color: #f5f5f5; } /* Add a light background for first column */
+
+      th {   /* Style header row (optional) */
+        font-weight: bold; /* Make header text bold */
+        text-align: center; }/* Center text in headers */
+
+      .disappear-text {display: block; font-size: 1.2em;} 
       @media screen and (max-width: 520px) {
-        .large-text {
-        display: none; }} /* Hides the element on screens smaller than 520px */
+        .disappear-text {display: none; }
+        .lg-text {font-size: 1.2em; font-weight: bold;} 
+      } /* Hides the element on screens smaller than 520px */
     </style>
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="../index.html" class="logo d-flex align-items-center">
         <img src="../assets/img/logo.png" alt="">
-        <p><strong class="lg-text">WHMA Blog</strong><br><em class="sm-text">Martial Arts  -  Fitness  -  Life Tools</em></p></a>
-
-      <div class="position-relative">
-        <a href="https://whiteheronmartialarts.com" target="_blank" class="logo d-flex align-items-center"><div class="large-text"><em>Visit Dojo -</em></div>
-        <img src="../assets/img/logo.png" alt=""></a>
-      </div>
+         <p> <x class="lg-text">WHMA BLOG<br></x><y class="disappear-text">&nbsp;&nbsp;Inspired Fitness.  Black belt life.</y></p></a>
+ 
+      <ul class="no-bullets">
+        <li>
+          <a href="https://facebook.com/whiteheronmartialarts" target="_blank" class="mx-2"><span class="bi-facebook"></span></a>
+          <a href="https://instagram.com/whiteheronmartialarts" target="_blank" class="mx-2"><span class="bi-instagram"></span></a>
+                    <a href="https://maps.app.goo.gl/pPMbdpH1T7Fo8SCq8" target="_blank" class="mx-2"><span class="bi-map"></span></a>
+        </li>
+        <li>
+          <nav id="navbar" class="navbar">
+           <ul> 
+              <li><a><em>All Posts - Martial Arts - Fitness - Life Tools</em></a></li>
+              <li><a href="../dojo/index.html">Dojo</a></li>
+            </ul>
+          </nav>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </li>
+      </ul>
     </div>
   </header><!-- ========== END HEADER ====================================-->
 
