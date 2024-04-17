@@ -1,5 +1,16 @@
 // script.js
 document.addEventListener("DOMContentLoaded", function() {
+  const headerElement = document.getElementById('common-head');
+  fetch('../commonHead.html')
+    .then(response => response.text())
+    .then(data => {
+      headerElement.innerHTML = data;
+    })
+    .catch(error => {
+      console.error('Error fetching header:', error);
+    });
+});
+document.addEventListener("DOMContentLoaded", function() {
   const headerElement = document.getElementById('header-element');
   fetch('../commonPost.html')
     .then(response => response.text())
