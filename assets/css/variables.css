@@ -1,5 +1,5 @@
 /**
-* Template Name: ZenBlog
+* Template 
 * File: variables.css
 * Description: Easily customize colors, typography, and other repetitive properties used in the template main stylesheet file main.css
 * 
@@ -8,7 +8,7 @@
 * License: https://bootstrapmade.com/license/
 * 
 * Contents:
-* 1. ZenBlog template variables 
+* 1. template variables 
 * 2. Override default Bootstrap variables
 * 3. Set color and background class names
 *
@@ -16,13 +16,18 @@
 */
 
 /*--------------------------------------------------------------
-# 1. ZenBlog template variables 
+# 1. template variables 
 --------------------------------------------------------------*/
 :root {
 
   /* Fonts */
+  --font-default: 'Avenir Light', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: ''Avenir Light', serif; /*'Playfair Display', serif;
+/*
   --font-default: 'EB Garamond', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: ''EB Garamond', serif; /*'Playfair Display', serif;*/
+  --font-primary: ''EB Garamond', serif; /*'Playfair Display', serif;
+  'Merriweather' 'Avenir Light' -apple-system, "Segoe UI"*/
+  
   --font-secondary: 'Inter', sans-serif;
   --font-oldsite: 'Avenir', 'EB Garamond', serif; /*'Playfair Display', serif;*/
 
