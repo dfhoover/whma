@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LC5J7HDX8Y"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-LC5J7HDX8Y'); </script>
+  <!-- End Google Tag -->
+  
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Gradings</title> <!-- ========= TITLE OF THIS PAGE =========== -->
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/logo.png" rel="icon">
+  <link href="img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS Files -->
+  <link href="../assets/css/variables.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: ZenBlog
+  * Updated: Mar 13 2024 with Bootstrap v5.3.3
+  * Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
+  * Author: BootstrapMade.com
+  * License: https:///bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+
+  <!-- ==========HEADER ============================================= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+
+    <!-- CUSTOM STYLE FOR PHOTOS =========================================-->
+    <style>
+      /* Styles for screens larger than 768px (e.g., tablets and desktops) */
+      @media screen and (min-width: 768px) {
+        p.x {
+          height: 50px;  <!-- was 200px -->
+          width: 500px;
+          margin: 100px auto;  
+          position: relative;
+        }
+
+        img.x {
+          height: 100px;
+          position: absolute;
+          left: 0;
+          offset-path: path('m 0 50 q 50-30 100-30 t 100 30 100 0 100-30 100 30'); 
+          box-shadow: 1px 1px 3px #0008;
+          transition: transform .4s ease-out, offset-path .4s cubic-bezier(.77,-1.17,.75,.84),box-shadow .3s, z-index .3s;
+          z-index: 0;
+        }
+
+        img.x:hover {
+          transform: scale(3);
+          /* on hover, the path gets a bit shorter & flattened & shifted to left/bottom a bit for nicer movement */
+          offset-path: path('m 5 65 q 45-0 90-0 t 90 0 90 0 90-0 90 0');
+          box-shadow: 3px 4px 10px #0006;
+          z-index: 999;
+        }
+
+        /* 3 images */
+        img.x:nth-last-child(3):first-child {offset-distance: 17%;}
+        img.x:nth-last-child(2):nth-child(2) {offset-distance: 49%;}
+        img.x:last-child:nth-child(3) {offset-distance: 81%;}
+
+        /* 4 images */
+        img.x:nth-last-child(4):first-child {offset-distance: 10%;}
+        img.x:nth-last-child(3):nth-child(2) {offset-distance: 35%;}
+        img.x:nth-last-child(2):nth-child(3) {offset-distance: 65%;}
+        img.x:last-child:nth-child(4) {offset-distance: 90%;}
+
+        /* 5 images */
+        img.x:nth-last-child(5):first-child {offset-distance: 0%;}
+        img.x:nth-last-child(4):nth-child(2) {offset-distance: 25%;}
+        img.x:nth-last-child(3):nth-child(3) {offset-distance: 51%;}
+        img.x:nth-last-child(2):nth-child(4) {offset-distance: 75%;}
+        img.x:last-child:nth-child(5) {offset-distance: 100%;}
+
+        /* 7 images */
+        img.x:nth-last-child(7):first-child {offset-distance: 0%;}
+        img.x:nth-last-child(6):nth-child(2) {offset-distance: 18%;}
+        img.x:nth-last-child(5):nth-child(3) {offset-distance: 36%;}
+        img.x:nth-last-child(4):nth-child(4) {offset-distance: 52%;}
+        img.x:nth-last-child(3):nth-child(5) {offset-distance: 70%;}
+        img.x:nth-last-child(2):nth-child(6) {offset-distance: 88%;}
+        img.x:last-child:nth-child(7) {offset-distance: 100%;}
+      }
+
+      /* Styles for screens smaller than 768px (e.g., smartphones) */
+      @media screen and (max-width: 768px) {
+        p.x{}
+        img.x{height: 100px;}
+        img.x:hover {
+          transform: scale(3);
+          box-shadow: 3px 4px 10px #0006;
+          z-index: 999;}
+      }
+      .lg-text {font-size: 1.8em;} 
+      .sm-text {font-size: .8em;}
+      .disappear-text {display: block; } 
+      @media screen and (max-width: 520px) {
+        .disappear-text {display: none; }
+      } /* Hides the element on screens smaller than 520px */
+    </style>
+    <!-- END CUSTOM STYLE FOR PHOTOS =====================================-->
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="../index.html" class="logo d-flex align-items-center">
+        <img src="img/logo.png" alt="">
+        <p><strong class="lg-text">WHMA Blog</strong><br><em class="sm-text">Martial Arts  -  Fitness  -  Life Tools</em></p>
+     </a>
+
+      <div class="position-relative">
+        <a href="https://whiteheronmartialarts.com" target="_blank" class="logo d-flex align-items-center"><div class="disappear-text"><em>Visit Dojo -</em></div>
+        <img src="img/logo.png" alt=""></a>
+      </div>
+    </div>
+
+  </header><!-- ========== END HEADER ====================================-->
+
+  <main id="main">
+
+    <section class="single-post-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 post-content">
+
+            <!-- ======= Single Post Content ======= -->
+            <div class="single-post">
+              <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 18, 24</span></div>
+              <h1 class="mb-5">Karate Gradings</h1>
+              <p><span class="firstcharacter">K</span>arate gradings always inspire! It doesn’t matter whether the participants are young or old, if it's their first grading from white belt, or a dan grading of a black belt. Gradings are a demonstration of physical prowess, constructed from focus, dedication, and grit. </p>
+              <p>Here are a few photos from our recent gradings</p>
+
+              <h2>March '24, 2024</h2>
+              <p> This was a Senior Belt, 3+ hr grading held at the <a href="https://www.whiteheronmartialarts.com" target="_blank"><em>Heidelberg dojo</em></a>.</p>
+            
+            <p class="x">
+              <img src="img/grading-2short.jpg" class="x">
+              <img src="img/grading/grading-3.jpg" class="x">
+              <img src="img/grading/grading-4.jpg" class="x">
+              <img src="img/grading/grading-5.jpg" class="x">
+              <img src="img/grading/grading-6.jpg" class="x">
+              <img src="img/grading/grading-7.jpg" class="x">
+              <img src="img/grading-1short.jpg" class="x">
+            </p>
+            <h2> March 6, '24 Grading</h2>
+            <p class="x">
+              <img src="img/grading/240306-1.jpg" class="x">
+              <img src="img/grading/240306-2.jpg" class="x">
+              <img src="img/grading/240306-3.jpg" class="x">
+              <img src="img/grading/240306-4.jpg" class="x">
+              <img src="img/grading/240306-5.jpg" class="x">
+            </p>
+            <p class="x">          
+              <img src="img/grading/240306-6.jpg" class="x">
+              <img src="img/grading/240306-7.jpg" class="x">
+              <img src="img/grading/240306-8.jpg" class="x">
+              <img src="img/grading/240306-9.jpg" class="x">
+              <img src="img/grading/240306-10.jpg" class="x">
+ 
+            </p>
+
+          </div>
+        </div><!-- End Single Post Content -->
+
+        <div class="col-md-3">
+            <!-- ======= Sidebar ============================================= -->
+            <div class="aside-block">
+
+              <ul class="nav nav-pills custom-tab-nav mb-4" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-trending-tab" data-bs-toggle="pill" data-bs-target="#pills-trending" type="button" role="tab" aria-controls="pills-trending" aria-selected="false">Related</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-latest-tab" data-bs-toggle="pill" data-bs-target="#pills-latest" type="button" role="tab" aria-controls="pills-latest" aria-selected="false">Latest</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-popular-tab" data-bs-toggle="pill" data-bs-target="#pills-popular" type="button" role="tab" aria-controls="pills-popular" aria-selected="true">Popular</button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+
+                <!--===== POPULAR ============================================-->
+                <div class="tab-pane fade" id="pills-popular" role="tabpanel" aria-labelledby="pills-popular-tab">
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Fitness</span> <span class="mx-1">&bullet;</span> <span>Mar 1, '24</span></div>
+                    <h2 class="mb-2"><a href="top-12-home-workout-programs.html">Top 12 Home Workout Programs</a></h2>
+                  </div>
+
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Fitness</span> <span class="mx-1">&bullet;</span> <span>Mar 18, '24</span></div>
+                    <h2 class="mb-2"><a href="ice-bath.html">Ice Baths</a></h2>
+                  </div>
+
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Life Tools</span> <span class="mx-1">&bullet;</span> <span>Mar 14, '24</span></div>
+                    <h2 class="mb-2"><a href="too-old.html">Am I too old</a></h2>
+                  </div>
+
+                </div> <!-- ===== End Popular ===================================-->
+
+                <!-- ===== RELATED / aka Trending ==============================-->
+                <div class="tab-pane fade show active" id="pills-trending" role="tabpanel" aria-labelledby="pills-trending-tab">
+
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 24, '24</span></div>
+                    <h2 class="mb-2"><a href="20-precepts.html">20 Precepts of Karate</a></h2>
+                  </div>
+
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 24, '24</span></div>
+                    <h2 class="mb-2"><a href="10-books.html">Top 10 Books for Martial Artists</a></h2>
+                  </div>
+
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Fitness</span> <span class="mx-1">&bullet;</span> <span>Feb 20, '24</span></div>
+                    <h2 class="mb-2"><a href="goggins.html">Can't Hurt Me - David Goggins</a></h2>
+                  </div>
+
+                </div> <!-- ===== End RELATED / aka Trending ============-->
+
+                <!-- ==== Latest =========================================-->
+                <div class="tab-pane fade" id="pills-latest" role="tabpanel" aria-labelledby="pills-latest-tab">
+
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 18, '24</span></div>
+                    <h2 class="mb-2"><a href="grading.html">Karate Grading</a></h2>
+                  </div>
+
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 21, '24</span></div>
+                    <h2 class="mb-2"><a href="https://www.whiteheronmartialarts.com/camp">Karate Summer Camp - Elmira</a></h2>
+                  </div>
+
+                  <div class="post-entry-1 border-bottom">
+                    <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Dec 12, '23</span></div>
+                    <h2 class="mb-2"><a href="hanshi-montalvo.html">Hanshi Montalvo returns to Canada</a></h2>
+                  </div>
+                </div> <!-- ==== END LATEST =============================== -->
+
+              </div> <!-- ===== End Tab Content =========================== -->
+            </div>   <!-- ===== End aside side bar ======================== -->
+
+            <!-- ===== SUBSCIBE ============================== -->
+            <div class="post-entry-1 border-bottom"> 
+              <script async src="https://eocampaign1.com/form/a90a7900-e601-11ee-8ffd-f54085253e57.js" data-form="a90a7900-e601-11ee-8ffd-f54085253e57"></script>
+            </div>
+            <!-- ====== END SUBSCRIBE ========================= -->
+        </div> <!-- === END SIDE-BAR FULL ===================== -->
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+  <!-- ======= FOOTER ======================================================= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h3 class="footer-heading">WHMA Blog</h3>
+            <p>Martial Arts     -     Fitness     -     Life Tools</p>
+            <!--<p><a href="about.html" class="footer-link-more">Learn More</a></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="copyright">
+              © Copyright <strong><span>ZenBlog</span></strong>. All Rights Reserved
+            </div>
+
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+              Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+            </div>
+
+          </div>
+          <!--
+          <div class="col-md-6">
+            <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+          -->
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <!--========= END FOOTER ======================================================-->
+
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
