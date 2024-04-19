@@ -1,8 +1,30 @@
-/**
-* Template Name: ZenBlog
-*/
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
+
+  const commonSidePopular = document.getElementById('commonSidePopular');
+  if (commonSidePopular) {
+    function loadContent(elementId, fileName) {
+      fetch(`../${fileName}`)
+        .then(response => response.text())
+        .then(data => {
+          elementId.innerHTML = data;
+        });
+    }
+    loadContent(commonSidePopular, 'commonSidePopular.html');
+  }
+  const commonSideLatest = document.getElementById('commonSideLatest');
+  if (commonSideLatest) {
+    function loadContent(elementId, fileName) {
+      fetch(`../${fileName}`)
+        .then(response => response.text())
+        .then(data => {
+          elementId.innerHTML = data;
+        });
+    }
+    loadContent(commonSideLatest, 'commonSideLatest.html');
+  }
+
 
   /**
    * Sticky header on scroll

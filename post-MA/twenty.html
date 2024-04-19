@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>20 Precepts of Gichin Funakoshi</title>
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LC5J7HDX8Y"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-LC5J7HDX8Y'); </script>
+  <!-- End Google Tag -->
+  
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link rel="icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS Files -->
+  <link href="../assets/css/variables.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
+
 </head>
 
 <body>
+  <!-- ==========HEADER ============================================= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <style>
+      .lg-text {font-size: 1.7em;} 
+      .sm-text {font-size: 1.2em;}
+      ul.no-bullets{list-style:none;}
+      ul.no-bullets li{text-align: right;}
 
+      table { width: 500px; border-collapse: collapse; }
+      th, td {padding: 10px; border: 1px solid #ddd; }
+
+      tr:nth-child(even) { background-color: #eee; } /* Add a light background for even rows */
+
+      th:first-child, td:first-child { background-color: #f5f5f5; } /* Add a light background for first column */
+
+      th {   /* Style header row (optional) */
+        font-weight: bold; /* Make header text bold */
+        text-align: center; }/* Center text in headers */
+
+      .disappear-text {display: block; font-size: 1.2em;} 
+      @media screen and (max-width: 520px) {
+        .disappear-text {display: none; }
+        .lg-text {font-size: 1.2em; font-weight: bold;} 
+      } /* Hides the element on screens smaller than 520px */
+    </style>
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="../index.html" class="logo d-flex align-items-center">
+        <img src="../assets/img/logo.png" alt="">
+         <p> <x class="lg-text">WHMA BLOG<br></x><y class="disappear-text">&nbsp;&nbsp;Inspired Fitness.  Black belt life.</y></p></a>
+ 
+      <ul class="no-bullets">
+        <li>
+          <a href="https://facebook.com/whiteheronmartialarts" target="_blank" class="mx-2"><span class="bi-facebook"></span></a>
+          <a href="https://instagram.com/whiteheronmartialarts" target="_blank" class="mx-2"><span class="bi-instagram"></span></a>
+                    <a href="https://maps.app.goo.gl/pPMbdpH1T7Fo8SCq8" target="_blank" class="mx-2"><span class="bi-map"></span></a>
+        </li>
+        <li>
+          <nav id="navbar" class="navbar">
+          <ul> 
+            <li><a href="../post-MA/allpostsMA.html">Martial Arts</a></li>
+            <li><a href="../post-F/allpostsF.html">Fitness</a></li>
+            <li><a href="../post-LT/allpostsLT.html">Life Tools</a></li>
+            <li><a href="../dojo/index.html" target="_blank">Dojo</a></li>
+          </ul>
+          </nav>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </li>
+      </ul>
+    </div>
+  </header><!-- ========== END HEADER ====================================-->
+  
   <main id="main">
 
     <section class="single-post-content">
@@ -69,21 +150,8 @@
 
               <div class="tab-content" id="pills-tabContent">
 
-                <!--===== POPULAR ============================================ -->
-                <div class="tab-pane fade" id="pills-popular" role="tabpanel" aria-labelledby="pills-popular-tab">
-
-                 <header id="common-side-popular-element"></header> 
-                  
-                </div>
-
-                <!-- ==== Latest =========================================-->
-                <div class="tab-pane fade" id="pills-latest" role="tabpanel" aria-labelledby="pills-latest-tab">
-
-                  <header id="common-side-latest-element"></header> 
-                </div>
-
                 <!-- ===== RELATED / aka Trending ============================ -->
-                <div class="tab-pane show active" id="pills-trending" role="tabpanel" aria-labelledby="pills-trending-tab">
+                <div class="tab-pane fade show active" id="pills-trending" role="tabpanel" aria-labelledby="pills-trending-tab">
 
                   <div class="post-entry-1 border-bottom">
                     <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Nov 17, '20</span></div>
@@ -102,26 +170,61 @@
 
                 </div>  <!--===== End RELATED / aka Trending ============-->
 
-              </div> <!-- ===== End Tab Content line 55 =================== -->
-            </div>   <!-- ===== End aside side bar ==line 41. ============= -->
+                <!--===== POPULAR ============================================ -->
+                <div class="tab-pane fade" id="pills-popular" role="tabpanel" aria-labelledby="pills-popular-tab">
+                  <div id="commonSidePopular"></div>
+                </div>
 
-            <!-- ===== SUBSCIBE ============================== -->
-            <div class="post-entry-1 border-bottom"> 
-              <script async src="https://eomail6.com/form/71841640-f8f2-11ee-b4e0-99ca8f7b7710.js" data-form="71841640-f8f2-11ee-b4e0-99ca8f7b7710"></script> 
-            </div>
-            
-        </div> <!-- === END class="col-md-3">. line 39  =============== -->
-  <!--    </div> Line 14  -->
-      </div> <!-- === Line 13 ==== -->. 
+                <!-- ==== Latest =========================================-->
+                <div class="tab-pane fade" id="pills-latest" role="tabpanel" aria-labelledby="pills-latest-tab">
+                 <div id="commonSideLatest"></div>
+                </div>
+
+              </div> <!-- ===== End Tab Content  =================== -->
+
+            </div>   <!-- ===== End aside-block ============= -->
+
+           <!-- ===== SUBSCIBE ============================== -->
+           <div class="post-entry-1 border-bottom">
+              <script async src="https://eomail6.com/form/71841640-f8f2-11ee-b4e0-99ca8f7b7710.js" data-form="71841640-f8f2-11ee-b4e0-99ca8f7b7710"></script>
+           </div>
+
+          </div> <!-- === End class="col-md-3">.   =============== -->
+        </div> <!-- === End row ==== -->.
+      </div>
     </section>
   </main><!-- End #main -->
 
-  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+  <!-- ======= FOOTER ======================================================= -->
+  <footer id="footer" class="footer">
 
-  <header id="header-element"></header>
-  <script src="../commonPost.js"></script>
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h3 class="footer-heading">WHMA Blog</h3>
+            <p>Martial Arts     -     Fitness     -     Life Tools</p>
+            <!--<p><a href="about.html" class="footer-link-more">Learn More</a></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!--========= END FOOTER ======================================================-->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> 
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
 </body>
-
 </html>
-
-
