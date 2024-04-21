@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  
-  <!-- Google tag (gtag.js) -->
+  <title>WHMA Blog | White Heron Martial Arts | Karate, Tai Chi | Elmira On, Waterloo, Woolwich</title>
+    <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LC5J7HDX8Y"></script>
   <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-LC5J7HDX8Y'); </script>
   <!-- End Google Tag -->
-
+  
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>WHMA Blog | White Heron Martial Arts | Karate, Tai Chi | Elmira On, Waterloo, Woolwich</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Martial Arts | Karate, Tai Chi | Elmira On, Waterloo, Woolwich" name="description">
+  <meta content="Martial Arts | Karate, Tai Chi | Elmira On, Waterloo, Woolwich" name="keywords">
 
-  <!-- Favicons -->
-  <link href="post/img/logo.png" rel="icon">
-<!--  <link href="post/img/logo.png" rel="apple-touch-icon">. -->
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,44 +32,61 @@
   <link href="assets/css/variables.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: ZenBlog
-  * Updated: Mar 13 2024 with Bootstrap v5.3.3
-  * Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
-  * Author: BootstrapMade.com
-  * License: https:///bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
-
   <!-- ==========HEADER ============================================= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <style>
-      .lg-text {font-size: 1.8em;} /* Increase font size by 1 unit relative to the base size */
-      .sm-text {font-size: .8em;} /* Increase font size by 1 unit relative to the base size */
-      .large-text {display: block; } /* Ensures the element displays as a block by default */
+      .lg-text {font-size: 1.7em;} 
+      .sm-text {font-size: 1.2em;}
+      ul.no-bullets{list-style:none;}
+      ul.no-bullets li{text-align: right;}
 
-      /* Hide text on small screens */
+      table { width: 500px; border-collapse: collapse; }
+      th, td {padding: 10px; border: 1px solid #ddd; }
+
+      tr:nth-child(even) { background-color: #eee; } /* Add a light background for even rows */
+
+      th:first-child, td:first-child { background-color: #f5f5f5; } /* Add a light background for first column */
+
+      th {   /* Style header row (optional) */
+        font-weight: bold; /* Make header text bold */
+        text-align: center; }/* Center text in headers */
+
+      .disappear-text {display: block; font-size: 1.2em;} 
       @media screen and (max-width: 520px) {
-        .large-text {
-        display: none; } /* Hides the element on screens smaller than 768px */
-      }
+        .disappear-text {display: none; }
+        .lg-text {font-size: 1.2em; font-weight: bold;} 
+      } /* Hides the element on screens smaller than 520px */
     </style>
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="post/img/logo.png" alt="">
-        <p><strong class="lg-text">WHMA Blog</strong><br><em class="sm-text">Martial Arts  -  Fitness  -  Life Tools</em></p></a>
-
-      <div class="position-relative">
-        <a href="https://whiteheronmartialarts.com" rel="nofollow" target="_blank" class="logo d-flex align-items-center"><div class="large-text"><em>Visit Dojo -</em></div>
-        <img src="post/img/logo.png" alt=""></a>
-      </div>
+      <a href="" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+         <p> <x class="lg-text">WHMA BLOG<br></x><y class="disappear-text">&nbsp;&nbsp;Inspired Fitness.  Black belt life.</y></p></a>
+ 
+      <ul class="no-bullets">
+        <li>
+          <a href="https://facebook.com/whiteheronmartialarts" target="_blank" class="mx-2"><span class="bi-facebook"></span></a>
+          <a href="https://instagram.com/whiteheronmartialarts" target="_blank" class="mx-2"><span class="bi-instagram"></span></a>
+                    <a href="https://maps.app.goo.gl/pPMbdpH1T7Fo8SCq8" target="_blank" class="mx-2"><span class="bi-map"></span></a>
+        </li>
+        <li>
+          <nav id="navbar" class="navbar">
+          <ul> 
+            <li><a href="postMA/allpostsMA.html">Martial Arts</a></li>
+            <li><a href="postF/allpostsF.html">Fitness</a></li>
+            <li><a href="postLT/allpostsLT.html">Life Tools</a></li>
+            <li><a href="dojo/index.html" target="_blank">Dojo</a></li>
+          </ul>
+          </nav>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </li>
+      </ul>
     </div>
   </header><!-- ========== END HEADER ====================================-->
-
   <main id="main">
 
     <!-- =============== HERO SLIDER Section ============================ -->
@@ -84,7 +98,7 @@
               <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                  <a href="post/grading.html" class="img-bg d-flex align-items-center" style="background-image: url('post/img/grading-1short.jpg');">
+                  <a href="postMA/grading.html" class="img-bg d-flex align-items-center" style="background-image: url('postMA/img/grading/grading-1short.jpg');">
                   <div class="img-bg-inner">
                       <h2>Karate Gradings</h2>
                       <p>Karate gradings always inspire! This month was no exception. It doesn’t matter whether the participants are young or old, if it's their first grading ...</p>
@@ -94,7 +108,7 @@
 
 
                 <div class="swiper-slide">
-                  <a href="https://www.whiteheronmartialarts.com/camp" rel="nofollow"target="_blank" class="img-bg d-flex align-items-center" style="background-image: url('post/img/summerCamp.png');">
+                  <a href="https://www.whiteheronmartialarts.com/camp" rel="nofollow"target="_blank" class="img-bg d-flex align-items-center" style="background-image: url('postMA/img/camp23/camp1.png');">
                     <div class="img-bg-inner">
                       <h2>Karate Summer Camp</h2>
                       <p>One Week Only! July 8th-12th! For current White Heron Martial Arts students or by referral.</p>
@@ -103,7 +117,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                  <a href="post/hanshi-montalvo.html" class="img-bg d-flex align-items-center" style="background-image: url('post/img/hanshiMontalvo-1short.jpg');">
+                  <a href="postMA/montalvo.html" class="img-bg d-flex align-items-center" style="background-image: url('postMA/img/montalvo1short.jpg');">
                     <div class="img-bg-inner">
                       <h2>Hanshi Montalvo Back in Canada</h2>
                       <p>Hanshi Montalvo was back in Canada! November 24th he presented another great seminar. Hanshi’s real world experience as a retired ATF Special Agent, along with his impressive karate resume...</p>
@@ -126,7 +140,7 @@
       </div>
     </section><!-- End Hero Slider Section -->
 
-    <!-- ======= MAIN dave was Culture Category Section ======= -->
+    <!-- ======= MAIN  ======= -->
     <section id="posts" class="posts">
       <div class="container" > 
         <div class="row">
@@ -134,65 +148,69 @@
           <div class="col-md-9">
 
             <div class="row">
-                <!-- ====== Column 1 ====== New columns. Now small pic, then big pic ==== -->
-              <div class="col-lg-8"> <!-- Dave was col-lg-8 -->
-                <div class="d-lg-flx post-entry-1 border-bottom">
+                <!-- ====== Column 1 ==== New columns. Now small pic, then big pic ==== -->
+              <div class="col-lg-8"> 
+                <div class="d-lg-flx post-entry-1 border-bottom"> <a href="postMA/grading.html">
                   <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 18, '24</span>
                   </div>
-                  <a href="post/grading.html"><img src="post/img/grading-2short.png" alt="" class="img-fluid"></a>
+                  <img src="postMA/img/grading/grading-2short.png" alt="" class="img-fluid">
 
-                  <h2><a href="post/grading.html">Karate Gradings</a></h2>
+                  <h2>Karate Gradings</h2>
                   <p class="mb-4 d-block">Karate gradings always inspire! This month was no exception. It doesn’t matter whether the participants are young or old, if it's their first grading ..</p>
                   <p><em> [Continue reading & see photos from our recent gradings.]</em></p>
+                  </a>
                 </div>
 
                 <div class="post-entry-1 border-bottom">
-                  <div class="post-meta"><span class="date">Fitness</span> <span class="mx-1">&bullet;</span> <span>Mar 18, '24</span></div>
-                  <a href="post/fasting.html"><h2 class="mb-2">Intermittent Fasting</h2>
-                  <p>The benefits of Intermittent Fasting are powerful, but so is my desire to raid the fridge late at night. Reviewing these benefits and keeping them top of mind helps strengthen the willpower.</p>
-                  <p><em> [Continue reading for all of the benefts of Intermittent Fasting.]</em></p></a>
+                  <a href="postF/fasting.html">
+                    <div class="post-meta"><span class="date">Fitness</span> <span class="mx-1">&bullet;</span> <span>Mar 18, '24</span></div>
+                    <h2 class="mb-2">Intermittent Fasting</h2>
+                    <p>The benefits of Intermittent Fasting are powerful, but so is my desire to raid the fridge late at night. Reviewing these benefits and keeping them top of mind helps strengthen the willpower.</p>
+                    <p><em> [Continue reading for all of the benefts of Intermittent Fasting.]</em></p>
+                  </a>
                 </div>
 
-                <div class="post-entry-1 border-bottom">
+                <div class="post-entry-1 border-bottom"><a href="postLT/goggins.html">
                   <div class="post-meta"><span class="date">Life Tools</span> <span class="mx-1">&bullet;</span> <span>Feb 20, '24</span></div>
-                  <a href="post/goggins.html"><h2>Can't Hurt Me - David Goggins</h2><p>You only think you are training hard. Follow Goggins to up your game.</p></a>
+                  <h2>Can't Hurt Me - David Goggins</h2><p>You only think you are training hard. Follow Goggins to up your game.</p></a>
                 </div>
 
-                <div class="post-entry-1 border-bottom">
+                <div class="post-entry-1 border-bottom"><a href="postMA/montalvo.html">
                   <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Dec 12, '23</span></div>
-                  <a href="post/hanshi-montalvo.html"><h2>Hanshi Montalvo</h2><p>Hanshi Montalvo was back in Canada. If you missed training with him, you missed a lot.</p></a>
+                  <h2>Hanshi Montalvo</h2><p>Hanshi Montalvo was back in Canada. If you missed training with him, you missed a lot.</p></a>
                 </div>
 
-                <div class="post-entry-1 border-bottom">
-                  <div class="post-meta">
-                    <a href="post/20-precepts.html">
-                      <img src="post/img/20precepts.png" alt="" class="img-fluid" width=20% style="float: right">
-                      <span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 24, '24</span></div>
-                      <h2>20 Precepts of Gichin Funakoshi</h2>
-                      <p>Life tips from a Karate master.</p>
-                    </a>
+                <div class="post-entry-1 border-bottom"><a href="postMA/twenty.html">
+                  <div class="post-meta"> 
+                    <img src="postMA/img/20precepts.png" alt="" class="img-fluid" width=20% style="float: right">
+                    <span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 24, '24</span></div>
+                    <h2>20 Precepts of Gichin Funakoshi</h2>
+                    <p>Life tips from a Karate master.</p>
+                  </a>
                   </div>
 
               </div>
               <!-- ====== Column 2 ========== -->
               <div class="col-lg-4">
 
-                <div class="post-entry-1 border-bottom">
+                <div class="post-entry-1 border-bottom"><a href="postF/homeWorkouts.html">
                   <div class="post-meta"><span class="date">Fitness</span> <span class="mx-1">&bullet;</span> <span>Mar 1, '24</span></div>
-                  <a href="post/top-12-home-workout-programs.html"><img src="post/img/top12-joe-big.png" alt="Top 12 Home Workout Programs" class="img-fluid" style="float: center; width: 80%; object-fit: contain;"></a>
-                  <h2><a href="post/top-12-home-workout-programs.html">Top 12 Home Workout Programs</a></h2>
-                  <p class="mb-4 d-block">A lot has changed in the years since I first wrote this post. It was time for an update.</p>
+                  <img src="postF/img/homeWorkouts/top12-joe-big.png" alt="Top 12 Home Workout Programs" class="img-fluid" style="float: center; width: 80%; object-fit: contain;">
+                  <h2>Top 12 Home Workout Programs</h2>
+                  <p class="mb-4 d-block">A lot has changed in the years since I first wrote this post. It was time for an update.</p></a>
                 </div>
 
-                <div class="post-entry-1 border-bottom">
-                  <div class="post-meta"><span class="date">Life Tools</span> <span class="mx-1">&bullet;</span> <span>Nov 12, '23</span></div>
-                  <a href="post/atomic-habits.html"><img src="post/img/atomicHabits.png" alt="Atomic Habits by James Clear" class="img-fluid" style="float: center; width: 70%; object-fit: contain;"></a>
-                  <h2><a href="post/atomic-habits.html">Atomic Habits - James Clear</a></h2><p>Goals are good. Systems are better.</p>
+                <div class="post-entry-1 border-bottom"><a href="postLT/atomicHabits.html">
+                  <div class="post-meta">
+                    <span class="date">Life Tools</span> <span class="mx-1">&bullet;</span> <span>Nov 12, '23</span></div>
+                  <img src="postLT/img/atomicHabits.png" alt="Atomic Habits by James Clear" class="img-fluid" style="float: center; width: 70%; object-fit: contain;">
+                  <h2>Atomic Habits - James Clear</h2><p>Goals are good. Systems are better.</p></a>
                 </div>
 
-                <div class="post-entry-1 border-bottom">
-                  <div class="post-meta"><span class="date">Life Tools</span> <span class="mx-1">&bullet;</span> <span>Mar 19, '24</span></div>
-                  <a href="https://www.WhiteHeronMartialArts.com/blog" rel="nofollow"target="_blank"><h2>Archived Articles</h2><p>Slowly... all of the old articles will be migrated to this fancy new site. In the mean time, you can still read them <em>here</em>.</p></a>
+                <div class="post-entry-1 border-bottom"><a href="https://www.WhiteHeronMartialArts.com/blog" rel="nofollow"target="_blank">
+                  <div class="post-meta">
+                    <span class="date">Life Tools</span> <span class="mx-1">&bullet;</span> <span>Mar 19, '24</span></div>
+                    <h2>Archived Articles</h2><p>Slowly... all of the old articles will be migrated to this fancy new site. In the mean time, you can still read them <em>here</em>.</p></a>
                 </div>
 
               </div>
@@ -201,23 +219,26 @@
           <!-- ============= Column 3 ============ -->
           <div class="col-md-3">
                          
-            <div class="post-entry-1 border-bottom">
-              <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 14, '24</span>
+            <div class="post-entry-1 border-bottom"><a href="postMA/tooOld.html">
+              <div class="post-meta">
+                <span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 14, '24</span>
               </div>
-              <a href="post/too-old.html"><img src="post/img/tooOld.jpg" alt="" class="img-fluid" ></a>
-              <h2><a href="post/too-old.html">Am I too old?</a></h2>
-              <p>Too old for Karate? Too old for BJJ? ...</p>
+              <img src="postMA/img/tooOld.jpg" alt="" class="img-fluid" >
+              <h2>Am I too old?</h2>
+              <p>Too old for Karate? Too old for BJJ? ...</p></a>
             </div>
 
-            <div class="post-entry-1 border-bottom">
-              <div class="post-meta"><span class="date">Fitness</span> <span class="mx-1">&bullet;</span> <span>Mar 18, '24</span></div>
-              <a href="post/ice-bath.html"><img src="post/img/iceBath.jpg" alt="" class="img-fluid" ></a>
-              <h2 class="mb-2"><a href="post/ice-bath.html">Ice Baths</a></h2><p>Brrr.. Good.  But cold..</p>
+            <div class="post-entry-1 border-bottom"><a href="postF/iceBath.html">
+              <div class="post-meta">
+                <span class="date">Fitness</span> <span class="mx-1">&bullet;</span> <span>Mar 18, '24</span></div>
+                <img src="postF/img/iceBath.jpg" alt="" class="img-fluid" >
+              <h2 class="mb-2">Ice Baths</h2><p>Brrr.. Good.  But cold..</p></a>
             </div>
 
-            <div class="post-entry-1 border-bottom">
-              <div class="post-meta"><span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 24, '24</span></div>
-              <a href="post/10-books.html"><h2>Top 10 Books for Martial Artists</h2><p>A list of recommended reading for all Karate practitioners.</p></a>
+            <div class="post-entry-1 border-bottom"><a href="postMA/tenBooks.html">
+              <div class="post-meta">
+                <span class="date">Martial Arts</span> <span class="mx-1">&bullet;</span> <span>Mar 24, '24</span></div>
+                <h2>Top 10 Books for Martial Artists</h2><p>A list of recommended reading for all Karate practitioners.</p></a>
             </div>
 
             <!-- ===== SUBSCIBE ============================== -->
