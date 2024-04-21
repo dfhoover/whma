@@ -923,6 +923,28 @@ section {
   border: 1px solid rgba(var(--color-black-rgb), 0.5);
 }
 
+.dashed-box {
+  border: 2px dashed black; /* dashed border with black color */
+  padding: 2px; /* padding inside the box */
+  width: fit-content; /* adjust the width to fit the content */
+}
+.button {
+  background-color: #ADD8E6; /* light blue color */
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px; /* rounded edges */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* 3D effect */
+}
+
+
+
 /*--------------------------------------------------------------
 # Comments
 --------------------------------------------------------------*/
