@@ -9,88 +9,127 @@
 
 <url>
   <loc>https://whma.ca/</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://whma.ca/postMA/allpostsMA.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postF/allpostsF.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postLT/allpostsLT.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/dojo/index.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/grading.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/summerCamp23.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/crane.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/eliteFighter.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postLT/obstacleWay.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postLT/goggins.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/montalvo.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/twenty.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postF/iceBath.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postF/fasting.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postF/homeWorkouts.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postLT/atomicHabits.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/tenBooks.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/taichiAgecare.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/tooOld.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://whma.ca/index.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://whma.ca/postMA/img/insanity-asylum-schedule.jpg</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://whma.ca/post/grading.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
+  <loc>https://whma.ca/dojo/contact.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://whma.ca/post/hanshi-montalvo.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/fasting.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/goggins.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/20-precepts.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/top-12-home-workout-programs.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/atomic-habits.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/too-old.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/ice-bath.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/10-books.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://whma.ca/post/img/insanity-asylum-schedule.jpg</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
+  <loc>https://whma.ca/dojo/about.html</loc>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://whma.ca/dojo/schedule.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2024-04-28T01:07:58+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://whma.ca/dojo/about.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://whma.ca/dojo/contact.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://whma.ca/dojo/index.html</loc>
-  <lastmod>2024-04-15T00:32:29+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-
 </urlset>
