@@ -34,9 +34,33 @@
   <link href="../assets/css/variables.css" rel="stylesheet">
   <link href="../assets/css/main.css" rel="stylesheet">
 
+  <script>
+    // Define the correct password
+    var correctPassword = 'whma';
+
+    // Prompt the user for a password
+    function checkPassword() {
+      var enteredPassword = prompt('Please enter the password to access this page:');
+
+      if (enteredPassword === correctPassword) {
+        document.getElementById('protected-content').style.display = 'block';
+      } else {
+        alert('Incorrect password. Access denied.');
+        checkPassword(); // Prompt again for the correct password
+      }
+    }
+  </script>
+  <style>
+    /* Hide the protected content by default */
+    #protected-content {
+      display: none;
+    }
+  </style>
+
 </head>
 
-<body>
+<body onload="checkPassword()">
+<div id="protected-content">
 
   <!-- ==========HEADER ============================================= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -313,7 +337,7 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
-
+</div>
 </body>
 
 </html>
