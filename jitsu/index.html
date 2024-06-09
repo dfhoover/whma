@@ -34,19 +34,17 @@
   <link href="../assets/css/variables.css" rel="stylesheet">
   <link href="../assets/css/main.css" rel="stylesheet">
 
-  <script>
-    // Define the correct password
-    var correctPassword = 'whma';
+  <script> //pw check
+    var cP = 'whma';
 
-    // Prompt the user for a password
-    function checkPassword() {
-      var enteredPassword = prompt('Please enter the password to access this page:');
+    function checkP() {
+      var enteredP = prompt('Please enter the password to access this page:');
 
-      if (enteredPassword === correctPassword) {
+      if (enteredP === cP) {
         document.getElementById('protected-content').style.display = 'block';
       } else {
         alert('Incorrect password. Access denied.');
-        checkPassword(); // Prompt again for the correct password
+        checkP(); // Prompt again for the correct password
       }
     }
   </script>
@@ -59,7 +57,7 @@
 
 </head>
 
-<body onload="checkPassword()">
+<body onload="checkP()">
 
   <!-- ==========HEADER ============================================= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
